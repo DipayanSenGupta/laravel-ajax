@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::resource('groceries','GroceryController');
 Route::resource('products','ProductController');
+Route::resource('players','PlayerController');
